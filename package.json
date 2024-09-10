@@ -6,7 +6,8 @@
     "dev": "tsnd --respawn -r tsconfig-paths/register --clear src/app.ts",
     "build": "rimraf ./dist && tsc --project tsconfig.build.json && tsc-alias",
     "start": "node ./dist/app.js",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch-all"
   },
   "keywords": [],
   "author": "Suleware",
